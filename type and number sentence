@@ -1,0 +1,35 @@
+1.type 
+a = 1
+
+print(type(a))
+#a = int 정수형
+
+a= 1.2
+
+print(type(a))
+#a = float 실수형
+
+2.number sentence
+a = 2
+b = 4
+
+print(a+b)
+# a+b = 6
+
+print(a-b)
+# a-b = -2
+
+print(a*b)
+# a*b = 8
+
+print(a/b)
+# a/b = 0.5
+
+print(a//b)
+# a//b = 0
+
+print(a**b)
+# a**b = 16
+
+print(a%b)
+# a%b = 2
