@@ -1,0 +1,23 @@
+1.indexing
+a = 'wishing you a happpy, health new year'
+
+print(a[1]) = i
+#wishing you a happpy, health new year
+#012345....
+print(a[-1]) = r
+
+2.slicing
+a = 'Python is useful.'
+
+print(a[0:4]) = pyth
+
+print(a[4:0]) = on is useful.
+
+print(a[0:0:2]) = Pto sueu.
+#(a[이상:미만:간격])
+
+3. return
+
+def solution(s):
+    return s == s[::-1]
+    #s 값과 -s값이 똑같다
