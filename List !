@@ -1,0 +1,33 @@
+List
+a = ['BTS','봉준호','송흥민','제이팍']
+
+print(a) = ['BTS', '봉준호', '송흥민', '제이팍']
+
+print('봉준호') = 봉준호
+
+a = ['BTS', '봉준호', '송흥민', 'jay park',['wonsang','lee']]
+
+print(a) = ['BTS', '봉준호', '송흥민', 'jay park', ['wonsang','lee']]
+print(a[4]) = ['wonsang', 'lee']
+print(a[4][1]) = lee
+
+
+a = ['BTS', '봉준호', '송흥민', 'jay park',['wonsang','lee']]
+a[0] = 'python' 
+
+print(a) = ['python', '봉준호', '송흥민', 'jay park',['wonsang','lee']]
+
+a = ['BTS', '봉준호', '송흥민', 'jay park',['wonsang','lee']]
+a[0:2] = []
+
+print(a) = ['송흥민', 'jay park',['wonsang','lee']]
+
+a = ['BTS', '봉준호', '송흥민', 'jay park',['wonsang','lee']]
+del a[1]
+
+print(a) = ['BTS', '송흥민', 'jay park',['wonsang','lee']]
+
+a = ['BTS', '봉준호', '송흥민', 'jay park',['wonsang','lee']]
+a.append('Disco')
+
+print(a) = ['BTS', '봉준호', '송흥민', 'jay park',['wonsang','lee'],'Disco']
